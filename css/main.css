@@ -28,6 +28,7 @@ h1 {
     font-size: 72px;
     line-height: 80px;
     padding: 350px 0px 0px 100px;
+    margin: 0px;
 }
 
 h2 {
@@ -42,6 +43,8 @@ h3 {
     font-family: 'Source Code Pro', monospace;
     font-size: 36px;
     color: #00c7d4;
+    padding-top: 50px;
+    margin: 0px;
 }
 
 h4 {
@@ -55,6 +58,12 @@ h5 {
     font-weight: normal;
     line-height: 24px;
     margin: 10px 0px 30px 0px;
+}
+
+h6 {
+    font-size: 18px;
+    text-align: center;
+    font-weight: normal;
 }
 
 p {
@@ -98,20 +107,28 @@ nav ul li a {
 
 /******** PORTFOLIO ********/
 
+.left-picture {
+    float: right;
+}
+
+.left-description {
+    text-align: right;
+}
+
 main a img {
     margin: 50px;
-    border: solid 3px #ffffff;
+    border: solid 3px #5C5F80;
 }
 
-.portfolio h4 {
-    padding: 50px 0px 0px 50px;
+h4 {
+    padding: 50px 50px 0px 50px;
 }
 
-.portolio h5 {
+main h5 {
     padding: 0px 50px 0px 50px;
 }
 
-.portfolio p {
+main p {
     padding: 0px 50px 0px 50px;
 }
 
@@ -122,6 +139,39 @@ main a {
 
 /******** ABOUT ME ********/
 
+#about {
+    background: url('../img/about-me.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    text-align: right;
+}
 
+#about-me {
+    width: 33.33%;
+    float: right;
+}
+
+#about-me p {
+    color: #1F202B;
+}
 
 /******** FOOTER *********/
+
+footer h4 {
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer ul {
+    text-align: center;
+    padding: 0px;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 15px 25px 15px 25px;
+}
