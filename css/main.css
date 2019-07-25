@@ -27,8 +27,8 @@ body {
 h1 {
     font-family: 'Source Code Pro', monospace;
     font-size: 72px;
-    line-height: 80px;
-    padding: 350px 0px 0px 100px;
+    line-height: 72px;
+    padding: 300px 0px 0px 100px;
     margin: 0px;
 }
 
@@ -83,7 +83,7 @@ h1 span {
 
 header h1 {
     background: no-repeat url('../img/hero-background.png');
-    background-size: 100%;
+    background-size: auto 100%;
     height: 725px;
 }
 
